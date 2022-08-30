@@ -123,8 +123,7 @@ main {
 
 h2 {
     color: aliceblue;
-    background-color: black;
-    border-radius: 15px;
+        border-radius: 15px;
     top: 0%;
     z-index: 1;
 
