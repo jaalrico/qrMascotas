@@ -21,10 +21,11 @@
     ;
 }
 
-.w-100{
+.w-100 {
     width: 100%;
     height: 600px;
 }
+
 /* para el formulario de registro */
 .formularioIndex {
     display: flex;
@@ -33,15 +34,16 @@
 
 }
 
-.card-header{padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
     margin-bottom: 0;
     color: white;
     background-color: #198754;
     border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    }
- 
-    .table-dark{
-     --bs-table-color: #fff;
+}
+
+.table-dark {
+    --bs-table-color: #fff;
     --bs-table-bg: #aaabaa;
     --bs-table-border-color: #373b3e;
     --bs-table-striped-bg: #2c3034;
@@ -52,7 +54,7 @@
     --bs-table-hover-color: #fff;
     color: #346831;
     border-color: #27420e;
-    }
+}
 
 .footer {
     display: flex;
@@ -123,7 +125,7 @@ main {
 
 h2 {
     color: aliceblue;
-        border-radius: 15px;
+    border-radius: 15px;
     top: 0%;
     z-index: 1;
 
