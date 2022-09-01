@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(to bottom, #198754, rgb(161, 184, 153), rgb(240, 243, 240), rgb(234, 238, 232), rgb(255, 255, 255), rgb(255, 255, 255));
+    height: 20vh;
+    align-items: center;
+    grid-area: header;
+
+    li {
+        margin: 20;
+
+    }
+
+    a {
+        color: rgb(7, 7, 7);
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(97, 100, 102);
+            transform: matrix3d();
+            font-size: larger;
+            transition: .3s;
+        }
+    }
+
+    .navcolor {
+        background-image: linear-gradient(to bottom, #198754, rgb(161, 184, 153), rgb(240, 243, 240), rgb(234, 238, 232), rgb(255, 255, 255), rgb(255, 255, 255));
+        height: 20vh;
+        opacity: 2;
+    }
+
+}

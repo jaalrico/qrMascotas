@@ -1,0 +1,14 @@
+* {
+    margin: 5px;
+    ;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+@import './sections/header';
+@import './sections/footer';
+@import './sections/main';
+@import './sections/comunes';
+
+@import './sections/media';
