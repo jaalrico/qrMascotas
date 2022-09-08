@@ -6,7 +6,9 @@
     color: black;
 }
 
-@import '../variables/estilos.scss';
+
+@import '../variables/estilos';
+@import '../variables/extend';
 @import './sections/header';
 @import './sections/footer';
 @import './sections/main';

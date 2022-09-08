@@ -19,7 +19,7 @@ header {
         text-decoration: none;
 
         &:hover {
-            color: rgb(97, 100, 102);
+            color: $colorHover;
             transform: matrix3d();
             font-size: larger;
             transition: .3s;
