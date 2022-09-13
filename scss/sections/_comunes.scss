@@ -10,7 +10,7 @@
 
 .table-dark {
     --bs-table-color: #fff;
-    --bs-table-bg: #aaabaa;
+    --bs-table-bg: #a7b9a7;
     --bs-table-border-color: #373b3e;
     --bs-table-striped-bg: #2c3034;
     --bs-table-striped-color: #fff;
@@ -21,17 +21,32 @@
     color: #346831;
     border-color: #27420e;
 }
-
+.card-body {
+flex: 1 1 auto;
+padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+color: var(--bs-card-color);
+display: flex;
+align-content: flex-end;
+align-items: stretch;
+justify-content: space-around;
+}
 .whatsApp { 
     display: inline;
     position: fixed;
     top: 40%;
     z-index: 3;
     margin-left: 76%;
+    transform: matrix()
+    transition: .3s;
+    
 }
+
 
 .p{
     @extend %estilop;
+    max-width: 800px;
+    text-align: justify;
+   
 }
 
 .styleList2 {
@@ -79,6 +94,7 @@ h2 {
     height: 500px;
     overflow: auto;
     display: block;
+    max-width: 500px;
 }
 
 

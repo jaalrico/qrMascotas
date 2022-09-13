@@ -4,10 +4,11 @@ header {
     list-style: none;
     position: sticky;
     top: 0px;
-    background-image: linear-gradient(to bottom, #198754, rgb(161, 184, 153), rgb(240, 243, 240), rgb(234, 238, 232), rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, #198754, #a1b899, #f0f3f0, #eaeee8, white, white);
     height: 20vh;
     align-items: center;
     grid-area: header;
+    ;
 
     li {
         margin: 20;
@@ -15,7 +16,7 @@ header {
     }
 
     a {
-        color: rgb(7, 7, 7);
+        // color: rgb(7, 7, 7);
         text-decoration: none;
 
         &:hover {
@@ -27,9 +28,12 @@ header {
     }
 
     .navcolor {
-        background-image: linear-gradient(to bottom, #198754, rgb(161, 184, 153), rgb(240, 243, 240), rgb(234, 238, 232), rgb(255, 255, 255), rgb(255, 255, 255));
+        background-image: linear-gradient(to bottom, #198754, #a1b899, #f0f3f0, #eaeee8, white, white);
         height: 20vh;
         opacity: 2;
     }
 
+    .nav-link {
+        color: #198754;
+    }
 }
