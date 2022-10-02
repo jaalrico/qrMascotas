@@ -65,25 +65,33 @@
     background-color: #f3dbc3;
 }
 
-//  SOLO PARA EL FAQ
+// ANIMACION PARA EL FAQ
+
 .card-bodyFAQ {
-    flex: 1 1 auto;
+    display: flex;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    align-content: flex-start;
-    align-items: stretch;
-    justify-content: flex-start;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     min-height: 46vh;
 
-    & {
-        background-image: url(../../images/7.jpg);
-        background-size:100%;
-        position: relative;
-        animation: movimiento 20s infinite linear alternate;
-    }
+
+& {
+    background-image: url(../../images/7.jpg);
+    background-size: 100%;
+    position: relative;
+    animation: movimiento 20s infinite linear alternate;
+}
+
 @keyframes movimiento {
-    from {background-position: bottom left;}
-    to {background-position: top right;}
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
 
 }
 
@@ -282,6 +290,17 @@ h2 {
     border-radius: 0;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #198754;
+    background-color: #102e20;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #198754;
+}
+
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    color: green;
 }
 
 .accordion-button:focus {
