@@ -17,7 +17,7 @@ header {
   position: sticky;
   top: 0px;
   background-image: linear-gradient(to bottom, #082015, #235e42, #eaccad, #eaccad, #f3dbc3);
-  height: 20vh;
+  max-height: 20vh;
   align-items: center;
   grid-area: header; }
   header li {
@@ -95,7 +95,6 @@ footer {
 
 main {
   min-height: 65vh;
-  max-height: 100%;
   grid-area: main;
   background-color: #f3dbc3; }
 
@@ -157,17 +156,25 @@ main {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color); }
 
 .table-dark {
-  --bs-table-color: #fff;
-  --bs-table-bg: #198754;
-  --bs-table-border-color: #373b3e;
-  --bs-table-striped-bg: #2c3034;
-  --bs-table-striped-color: #fff;
-  --bs-table-active-bg: #373b3e;
-  --bs-table-active-color: #fff;
-  --bs-table-hover-bg: #323539;
-  --bs-table-hover-color: #fff;
-  color: #346831;
-  border-color: #27420e; }
+  --bs-table-bg: #219961;
+  border-color: var(--bs-table-border-color); }
+
+.table {
+  --bs-table-color: var(--bs-body-color);
+  --bs-table-bg: transparent;
+  --bs-table-border-color: var(--bs-border-color);
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-body-color);
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: var(--bs-body-color);
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: var(--bs-body-color);
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+  vertical-align: middle;
+  margin-right: 25px; }
 
 .card-body {
   flex: 1 1 auto;

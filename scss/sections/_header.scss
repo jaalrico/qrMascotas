@@ -5,7 +5,7 @@ header {
     position: sticky;
     top: 0px;
     background-image: linear-gradient(to bottom,#082015, #235e42, #eaccad,#eaccad, #f3dbc3);
-    height: 20vh;
+    max-height: 20vh;
     align-items: center;
     grid-area: header;
     ;
