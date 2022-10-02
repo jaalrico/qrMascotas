@@ -1,0 +1,10 @@
+%estilop{
+    text-align: justify;
+    color: rgb(50, 92, 50);
+}
+
+
+
+@mixin textoprueba ($colorHover) {
+    color: $colorHover;
+}

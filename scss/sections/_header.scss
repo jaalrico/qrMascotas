@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(to bottom,#082015, #235e42, #eaccad,#eaccad, #f3dbc3);
+    height: 20vh;
+    align-items: center;
+    grid-area: header;
+    ;
+
+    li {
+        margin: 20;
+
+    }
+
+    a {
+        // color: rgb(7, 7, 7);
+        text-decoration: none;
+
+        &:hover {
+            color: $colorHover;
+            transform: matrix3d();
+            font-size: larger;
+            transition: .3s;
+        }
+    }
+
+    .navcolor {
+        background-image: linear-gradient(to bottom,#082015, #235e42, #eaccad,#eaccad, #f3dbc3);
+        height: 20vh;
+        opacity: 2;
+    }
+
+
+
+    .nav-link {
+        color: #198754;
+    }
+
+    #activeLink {
+        background-color:#198754;
+        transition: background-color .2s;
+        display: block;
+        border-radius: 12px;
+        color:#ffffff;
+        border-color: #198754;
+    }
+        
+}
