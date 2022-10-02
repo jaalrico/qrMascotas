@@ -76,10 +76,17 @@
     min-height: 46vh;
 
     & {
-        background-image: url(../../images/6.jpg);
-        background-size:cover;
-        
+        background-image: url(../../images/7.jpg);
+        background-size:100%;
+        position: relative;
+        animation: movimiento 20s infinite linear alternate;
     }
+@keyframes movimiento {
+    from {background-position: bottom left;}
+    to {background-position: top right;}
+
+}
+
 }
 
 .whatsApp {

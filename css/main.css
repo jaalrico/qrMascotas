@@ -4,7 +4,7 @@
   padding: 0px;
   font-family: 'Oswald', sans-serif;
   color: black;
-  min-height: auto; }
+  max-height: 100vh; }
 
 .p {
   text-align: justify;
@@ -81,7 +81,7 @@ footer {
       transition: .6s; }
   footer .pFooter {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     width: 100%;
     text-align: center;
     pointer-events: none;
@@ -90,7 +90,6 @@ footer {
   footer .imgFooter {
     position: absolute;
     left: 50%;
-    top: 30%;
     transform: translateX(-50%) translateY(-20%);
     pointer-events: none; }
 
@@ -199,8 +198,16 @@ aside {
   justify-content: flex-start;
   min-height: 46vh; }
   .card-bodyFAQ {
-    background-image: url(../../images/6.jpg);
-    background-size: cover; }
+    background-image: url(../../images/7.jpg);
+    background-size: 100%;
+    position: relative;
+    animation: movimiento 20s infinite linear alternate; }
+
+@keyframes movimiento {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
 
 .whatsApp {
   display: inline;

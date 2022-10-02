@@ -2,12 +2,12 @@ footer {
     display: flex;
     justify-content: center;
     grid-area: footer;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     clear: both;
     width: 100%;
-    background-image: linear-gradient(to top,#082015, #235e42, #3c6350,#eaccad, #f3dbc3);
-   
+    background-image: linear-gradient(to top, #082015, #235e42, #3c6350, #eaccad, #f3dbc3);
+
 
 
 
@@ -15,34 +15,34 @@ footer {
         display: flex;
         justify-content: center;
         clear: both;
-        
-        
+
+
     }
 
-    
+
 
     .divfooterIcons {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: center;
-      
+
     }
 
     .aFooter {
         margin: 10px;
-        background-image: linear-gradient(to top,#082015, #235e42, #3c6350,#eaccad, #f3dbc3);
+        background-image: linear-gradient(to top, #082015, #235e42, #3c6350, #eaccad, #f3dbc3);
         transition: background-color .2s;
         display: block;
         width: 152px;
         height: 144px;
         border-radius: 18px;
         position: relative;
-        
+
 
         &:hover {
             border-radius: 50%;
-            background-color:#0d3d26;
+            background-color: #0d3d26;
             -webkit-border-radius: 50%;
             box-shadow: 0px 0px 15px 15px #384d36;
             -webkit-box-shadow: 0px 0px 15px 15px #49a360;
@@ -56,7 +56,7 @@ footer {
     .pFooter {
 
         position: absolute;
-        bottom: 30px;
+        bottom: 20px;
         width: 100%;
         text-align: center;
         pointer-events: none;
@@ -67,7 +67,6 @@ footer {
     .imgFooter {
         position: absolute;
         left: 50%;
-        top: 30%;
         transform: translateX(-50%) translateY(-20%);
         pointer-events: none;
 
