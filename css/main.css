@@ -15,6 +15,7 @@ header {
   justify-content: space-evenly;
   list-style: none;
   position: sticky;
+  z-index: 7;
   top: 0px;
   background-image: linear-gradient(to bottom, #082015, #235e42, #eaccad, #eaccad, #f3dbc3);
   max-height: 20vh;
@@ -271,8 +272,8 @@ h2 {
 .grid-container1 {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-areas: "header header header header" "main main main main" "main main main main" "footer footer footer footer";
+  grid-template-rows: repeat(4, 1fr); }
 
 .col-md-6 {
   flex: 0 0 auto;
