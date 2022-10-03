@@ -96,7 +96,7 @@ footer {
     pointer-events: none; }
 
 main {
-  min-height: 65vh;
+  min-height: 85vh;
   grid-area: main;
   background-color: #f3dbc3; }
 
